@@ -1,5 +1,5 @@
 // 🎯 Target Date: June 4, 2025
-const countdownDate = new Date("June 2, 2025 00:00:00").getTime();
+const countdownDate = new Date("June 4, 2025 00:00:00").getTime();
 
 function updateCountdown() {
   const now = new Date().getTime();
