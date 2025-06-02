@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For My Nehu </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bgMusic" autoplay loop>
+    <source src="assets/music/01.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+  <div class="container">
+    <h1>🥳Something Big Coming In</h1>
+    <div id="countdown"></div>
+    <button id="timeUpButton" style="display:none;">Time's Up! See Your Surprise Here Now!</button>
+    <h2>Can’t Wait To see 😁</h2>
+
+    <h2>🎁Special Calender For My Girl Only💝</h2>
+    <div class="gift-grid" id="giftGrid"></div>
+  </div>
+
+  <div id="giftModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalMessage"></p>
+      <img id="modalImage" src="" alt="Gift Image" />
+      <a id="modalLink" href="#" target="_blank" style="display:none; margin-top: 10px; color: #57009e; text-decoration: underline;">Another Surprise😁Click to view</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
