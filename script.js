@@ -37,19 +37,19 @@ const gifts = [
     title: "Day 1 💖",
     content: "A warm hug for my Nehu 🤗",
     image: "assets/images/02.gif",
-    link: "https://ourgallery.pythonanywhere.com/"
+    link: "https://arslan548.github.io/Nehu01"
   },
   {
     title: "Day 2 💫",
-    content: "You’re my favorite star in the sky ⭐",
+    content: "Wishing you a day filled with love and laughter",
     image: "assets/images/star1.png",
-    link: "https://example.com/day2"
+    link: "https://arslan548.github.io/Nehu02"
   },
   {
     title: "Day 3 💫",
-    content: "You’re my favorite star in the sky ⭐",
+    content: "Happy Happy Birthday🎉",
     image: "assets/images/star1.png",
-    link: "https://example.com/day3"
+    link: "https://arslan548.github.io/Nehu03"
   },
   {
     title: "Day 4 💫",

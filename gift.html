@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Surprise for Nehu 🎁</title>
+   <link rel="stylesheet" href="gift.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(#2e003e, #4c0070);
+      height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .stars {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      background-image: radial-gradient(white 1px, transparent 1px);
+      background-size: 30px 30px;
+      z-index: 0;
+      opacity: 0.3;
+      animation: twinkle 5s infinite;
+    }
+
+    @keyframes twinkle {
+      0% { opacity: 0.3; }
+      50% { opacity: 0.6; }
+      100% { opacity: 0.3; }
+    }
+
+    .gift-box {
+      cursor: pointer;
+      width: 150px;
+      transition: transform 0.3s ease;
+      z-index: 1;
+    }
+
+    .gift-box:hover {
+      transform: scale(1.05);
+    }
+
+    .message {
+      display: none;
+      text-align: center;
+      font-size: 1.8rem;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      max-width: 90%;
+      z-index: 1;
+    }
+
+    .message img {
+      max-width: 250px;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+
+  <img src="https://i.imgur.com/fH0z4lp.png" alt="Gift Box" class="gift-box" onclick="openGift()" />
+
+  <div class="message" id="message">
+    <p>
+      Here's a little gift just for you! Your Chotu sa Panda💖
+    </p>
+    <div class="panda">
+
+      <div class="panda__ears panda__ears--left"></div>
+      <div class="panda__ears panda__ears--right"></div>
+      <div class="panda__head">
+        <div class="panda__eyes">
+          <div class="panda__eye panda__eye--left">
+            <div class="panda__eye-whiteleft"></div>
+            <div class="panda__eye-pupil"></div>
+          </div>
+          <div class="panda__eye panda__eye--right">
+            <div class="panda__eye-whiteright"></div>
+            <div class="panda__eye-pupil"></div>
+          </div>
+        </div>
+        <div class="panda__mouth">
+          <div class="panda__nose panda__nose--top"></div>
+          <div class="panda__nose panda__nose--bottom"></div>
+          <div class="panda__lips"></div>
+        </div>
+      </div>
+      <div class="panda__body"></div>
+      <div class="panda__feet">
+        <div class="panda__foot panda__foot--left"></div>
+        <div class="panda__foot panda__foot--right"></div>
+      </div>
+    </div>
+    <button class="next">Next...!</button>
+  </div>
+  <script>
+    function openGift() {
+      document.querySelector('.gift-box').style.display = 'none';
+      document.getElementById('message').style.display = 'block';
+    }
+  </script>
+  <script src="gift.js"></script>
+</body>
+</html>
