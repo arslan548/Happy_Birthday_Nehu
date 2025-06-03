@@ -42,26 +42,26 @@ const gifts = [
   {
     title: "Day 2 💫",
     content: "Wishing you a day filled with love and laughter",
-    image: "assets/images/star1.png",
+    image: "assets/images/04.gif",
     link: "https://arslan548.github.io/Nehu02"
   },
   {
     title: "Day 3 💫",
     content: "Happy Happy Birthday🎉",
-    image: "assets/images/star1.png",
+    image: "assets/images/05.gif",
     link: "https://arslan548.github.io/Nehu03"
   },
   {
     title: "Day 4 💫",
-    content: "You’re my favorite star in the sky ⭐",
-    image: "assets/images/star1.png",
-    link: "https://example.com/day4"
+    content: "Here is a Heart for you ❤️",
+    image: "assets/images/03.gif",
+    link: "https://arslan548.github.io/Nehu04"
   },
   {
     title: "Day 5 💫",
     content: "You’re my favorite star in the sky ⭐",
     image: "assets/images/star1.png",
-    link: "https://example.com/day5"
+    link: "https://arslan548.github.io/Nehu04"
   },
   {
     title: "Day 6 💫",
